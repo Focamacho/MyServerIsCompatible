@@ -20,10 +20,10 @@ version = mod_version
 group = mod_group_id
 
 base {
-    archivesName = "MyServerIsCompatible-1.20"
+    archivesName = "MyServerIsCompatible-1.21"
 }
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
